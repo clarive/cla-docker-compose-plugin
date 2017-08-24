@@ -1,0 +1,59 @@
+#: init/docker-compose-task.js
+msgid "Docker-Compose Task"
+msgstr "Tarea de Dcoker-Compose"
+
+#: init/docker-compose-task.js
+msgid "No option selected"
+msgstr "Ninguna opción seleccionada"
+
+#: init/docker-compose-task.js
+msgid "Launching command: "
+msgstr "Ejecutando comando: "
+
+#: init/docker-compose-task.js
+msgid "Command finished"
+msgstr "Comando finalizado"
+
+#: public/form/docker-task-form.js
+msgid "Server"
+msgstr "Servidor"
+
+#: public/form/docker-task-form.js
+msgid "Command"
+msgstr "Comando"
+
+#: public/form/docker-task-form.js
+msgid "UP (detached)"
+msgstr "Levantar (Desvinculado)"
+
+#: public/form/docker-task-form.js
+msgid "Down"
+msgstr "Tirar"
+
+#: public/form/docker-task-form.js
+msgid "Start"
+msgstr "Iniciar"
+
+#: public/form/docker-task-form.js
+msgid "Stop"
+msgstr "Parar"
+
+#: public/form/docker-task-form.js
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: public/form/docker-task-form.js
+msgid "Status"
+msgstr "Estado"
+
+#: public/form/docker-task-form.js
+msgid "Custom"
+msgstr "Personalizado"
+
+#: public/form/docker-task-form.js
+msgid "Project Path"
+msgstr "Ruta del proyecto"
+
+#: public/form/docker-task-form.js
+msgid "Custom command or arguments"
+msgstr "Comando personalizado o argumentos"
