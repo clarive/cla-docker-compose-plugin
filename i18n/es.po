@@ -1,6 +1,6 @@
 #: init/docker-compose-task.js
 msgid "Docker-Compose Task"
-msgstr "Tarea de Dcoker-Compose"
+msgstr "Tarea de Docker-Compose"
 
 #: init/docker-compose-task.js
 msgid "No option selected"
