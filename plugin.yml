@@ -1,0 +1,9 @@
+name: Clarive Docker-Compose Plugin
+description: The Docker-Compose plugin will allow you to launch Docker-Compose commands from a Clarive instance.
+version: 1.0
+icon: https://github.com/clarive/cla-docker-compose-plugin/public/icon/logo-docker.svg
+url: https://github.com/clarive/cla-docker-compose-plugin
+requires:
+  - clarive_version: 6.8 <= version
+dependencies:
+  - cla-docker-compose-plugin
