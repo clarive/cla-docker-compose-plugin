@@ -32,15 +32,24 @@ reg.register('service.docker-compose.task', {
 
         var log = require('cla/log');
         var reg = require('cla/reg');
+        var ci = require('cla/ci');
+
         var errorsType = params.errors || 'fail';
         var server = params.server;
         var path = params.path || ".";
         var command = params.command || "";
         var mainCommand = "cd " + path + ' && docker-compose ';
-        var commandParameters = params.commandParameters;
+        var commandParameters = params.commandParameters || [];
         var fullCommand = "";
         var user = params.user || "";
         var response;
+
+        var serverCheck = ci.findOne({
+            mid: server + ''
+        });
+        if (!serverCheck){
+            log.fatal(_("Server Resource doesn't exist"));
+        }
 
         var launchDockerCommand = function(server, command, errorsType, params, user) {
 
