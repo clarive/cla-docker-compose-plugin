@@ -1,6 +1,6 @@
 # Docker-Compose Plugin
 
-<img src="https://cdn.rawgit.com/clarive/cla-docker-compose-plugin/master/public/icon/logo-docker.svg?sanitize=true" alt="Docker-Compose Plugin" title="Docker-Compose Plugin" width="120" height="120">
+<img src="https://cdn.jsdelivr.net/gh/clarive/cla-docker-compose-plugin@master/public/icon/logo-docker.svg?sanitize=true" alt="Docker-Compose Plugin" title="Docker-Compose Plugin" width="120" height="120">
 
 The Docker-Compose plugin will allow you to launch Docker-Compose commands from a Clarive instance.
 
